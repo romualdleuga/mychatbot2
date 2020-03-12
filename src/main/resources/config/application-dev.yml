@@ -38,8 +38,8 @@ spring:
   datasource:
     type: com.zaxxer.hikari.HikariDataSource
     url: jdbc:postgresql://localhost:5432/mychatbot2
-    username: mychatbot2
-    password:
+    username: postgres
+    password: ryme2003
     hikari:
       poolName: Hikari
       auto-commit: false
