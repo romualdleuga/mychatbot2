@@ -1,4 +1,5 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
+
 import { ChatDialogComponent } from './chat-dialog.component';
 
 describe('ChatDialogComponent', () => {

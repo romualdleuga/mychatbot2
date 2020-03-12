@@ -1,5 +1,6 @@
 const chatbox = jQuery.noConflict();
 var $=jQuery.noConflict();
+
 var $messages = $(".messages-content"),
   d,
   h,
@@ -128,7 +129,6 @@ function fakeMessage() {
     i++;
   }, 1000 + Math.random() * 20 * 100);
 
-  $(".msg_container_base").stop().animate({ scrollTop: $(".msg_container_base")[0].scrollHeight}, 1000);
 }
 
 $(".button").click(function() {
