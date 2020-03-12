@@ -7,6 +7,5 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ChatDialogComponent implements OnInit {
   constructor() {}
-
   ngOnInit(): void {}
 }

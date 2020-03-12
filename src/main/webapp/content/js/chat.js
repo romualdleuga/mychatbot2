@@ -1,6 +1,5 @@
 const chatbox = jQuery.noConflict();
 var $=jQuery.noConflict();
-
 var $messages = $(".messages-content"),
   d,
   h,

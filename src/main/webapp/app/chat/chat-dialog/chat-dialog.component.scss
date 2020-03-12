@@ -168,6 +168,7 @@ textarea {
 
   .chatbox-panel__footer {
     @include chatbox-footer;
+
     flex: 0 0 auto;
   }
 }
